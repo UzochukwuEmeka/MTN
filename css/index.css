@@ -76,12 +76,38 @@ html {
   border-radius: 4px;
   background: var(--nav-backgroundcolor);
 }
-
-.hero-body{
-  margin-top: 100px;
-  padding: 0px 0px 0px 90px;
+/* Hero Body */
+.hero-body {
+  margin-top: 90px;
+  padding: 0px 0px 0px 100px;
   color: white;
+}
+.hero-body-row {
+  display: flex;
+  justify-content: space-between;
+}
+.mini-head-text p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 24px;
+  font-feature-settings: "salt" on;
+  color: #ffffff;
+}
+.max-head-text h1 {
+  font-family: "MTN Brighter Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  /* or 100% */
 
+  font-feature-settings: "salt" on;
+
+  /* Greyscale/Pearl */
+
+  color: #ffffff;
 }
 @media (max-width: 700px) {
   .nav_links .header_link {
