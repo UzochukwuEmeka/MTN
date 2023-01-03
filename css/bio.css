@@ -1,0 +1,68 @@
+.sort_by {
+  background-color: transparent;
+}
+.pagniation ul {
+  list-style: none;
+  display: flex;
+  background-color: white;
+  padding: 8px;
+  justify-content: space-around;
+}
+.pagniation ul li {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  border: 1px solid #909090;
+  border-radius: 8px;
+
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.pagniation ul li.numb {
+  padding: 10px 50px;
+}
+.pagniation ul li.btns{
+  border: none;
+
+}
+
+.pagniation ul li.btns span {
+  background: #b0b0b0;
+  padding: 10px 10px;
+  width: 3px;
+  text-align: center;
+  height: 30px;
+  border-radius: 50% !important;
+  color: #ffff;
+}
+
+.pagniation ul li.numb.active,
+.pagniation ul li.numb:hover,.pagniation ul li.btns span:hover
+{
+  background: #ffcb05;
+  color: #ffff;
+  border: none;
+}
+.bio-row{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.bio_division_header{
+  align-items: center;
+  gap: 120px;
+}
+.bio-head_name .name h2{
+  font-size: 3rem;
+}
+.profile-flex-item{
+  flex-basis: 46%;
+}
+@media(max-width:900px){
+  .pagniation ul{
+    flex-direction: column !important;
+    gap: 10px;
+  }
+}
