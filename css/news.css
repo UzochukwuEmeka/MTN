@@ -52,18 +52,8 @@
 
 }
 
-.news-text .new-text-header span {
-    font-family: var(--font2);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 125%;
-    text-transform: uppercase;
-    font-feature-settings: 'salt' on;
-    color: #202020;
-}
 
-.news-text .new-text-header .news-date {
+ .new-text-header .news-date {
     font-family: var(--font2);
     font-style: normal;
     font-weight: 300;
