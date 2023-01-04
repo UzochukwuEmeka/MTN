@@ -306,6 +306,9 @@ video:focus {
   align-items: center;
   justify-content: center;
 }
+.search_again_btn{
+  margin: 50px 0;
+}
 
 .view-all:hover {
   color: #404040;
