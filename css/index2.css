@@ -660,4 +660,14 @@ video:focus {
   .play-video-round {
     background-color: transparent;
   }
+  .application{
+    margin: 0 1rem;
+  }
+  .application-carousel{
+    margin: 1.5rem 0;
+  }
+  .application-carousel .carousel-item{
+    padding: 0 10px;
+  }
+
 }
