@@ -682,5 +682,38 @@ video:focus {
   .application-carousel .carousel-item{
     padding: 0 10px;
   }
+  .search_again_btn{
+    margin-top: 90px;
+  }
+  .latest_news_holder{
+    padding: 20px;
+  }
+  .newsbox-2{
+    margin-top: 20px;
+  }
+  .card_item .images, .card_item .images:before{
+    width: 90%;
 
+  }
+ .picture-row{
+justify-content: center;
+ }
+ .picture-row .card1 {
+  margin-top: 20px;
+ }
+ .picture-container{
+  margin: 20px !important;
+ }
+
+ .quick-links-section{
+  background: transparent;
+ }
+ 
+
+ .yammer-whole{
+  padding: 28px 18px;
+ }
+ .quick-links-row{
+  margin: 20px;
+ }
 }
