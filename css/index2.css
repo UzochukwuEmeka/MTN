@@ -635,6 +635,8 @@ video:focus {
   .quick_card{
     flex: 0 0 auto;
     width: 20%;
+    height: 0px;
+    border-radius: 0;
   }
   .quck-image{
     width: 50px;
