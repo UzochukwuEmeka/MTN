@@ -39,12 +39,13 @@
     margin-top: 8px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 4px 7% !important;
-    padding-right: 2% !important;
+  
     display: flex;
-    /* align-items: center; */
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
     z-index: 1000;
     background-color: #ffcb05;
+    border-radius: 4px;
   }
   
   header ul {
@@ -139,21 +140,34 @@
     font-size: 1.6rem;
     color: #404040 !important;
   }
+  .left-nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
   .profile-icon {
     display: flex;
     justify-content: space-between;
     gap: 4px;
   }
-  .profile-icon .fa-user {
-    font-size: 1.5rem;
-    color: white;
+  .note-holder{
+    display: flex;
+    position: relative;
   }
   .notification {
     width: 6px;
     height: 6px;
+    background: #af0000;
     border-radius: 50%;
-    background-color: red;
+    position: absolute;
+    right: -4px;
+    top: -4px;
   }
+  .profile-icon .fa-user {
+    font-size: 1.5rem;
+    color: white;
+  }
+ 
   .nav_bar-container {
     padding: 0px 0px 0px 80px;
     gap: 51px;

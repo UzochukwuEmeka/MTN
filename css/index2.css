@@ -145,22 +145,8 @@
 .play-video img {
   cursor: pointer;
 }
-.profile-icons {
-  margin-left: 480px;
-  
-}
-.note-holder{
-  display: flex;
-  position: relative;
-}
-.notification {
-  width: 6px;
-  height: 6px;
-  background: #af0000;
-  border-radius: 50%;
-  position: absolute;
-  right: 10px;
-}
+
+
 .video-player {
   width: 100%;
   /* position: absolute;
@@ -615,7 +601,7 @@ video:focus {
   }
 }
 
-@media (max-width: 416px) {
+@media (max-width: 786px) {
   .mtn-intranet-row{
     padding: 0 10px;
   }
@@ -692,7 +678,7 @@ video:focus {
     margin-top: 20px;
   }
   .card_item .images, .card_item .images:before{
-    width: 90%;
+    width: 100%;
 
   }
  .picture-row{
@@ -716,4 +702,20 @@ justify-content: center;
  .quick-links-row{
   margin: 20px;
  }
+ .image_carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .leaderlinks{
+  left: 60%;
 }
+}
+@media (max-width: 416px) {
+  .card_item .images, .card_item .images:before{
+    width: 90%;
+  }
+  .leaderlinks{
+    left: 15%;
+  }
+} 
