@@ -81,6 +81,15 @@
   color: #202020;
 }
 
+
+.news-text-paragraph, .big-new-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 60px;
+  overflow: hidden;
+}
+
 .paddingtopin {
   padding-top: 50px !important;
 }
