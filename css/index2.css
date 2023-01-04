@@ -632,6 +632,21 @@ video:focus {
   .veiw-video {
     padding: 10px 30px;
   }
+  .quick_card{
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .quck-image{
+    width: 50px;
+    
+  }
+  .quck-image img{
+    width: 100%;
+    height: auto;
+  }
+  .quick-action-text{
+    display: none;
+  }
 
   .play-video-round {
     background-color: transparent;
