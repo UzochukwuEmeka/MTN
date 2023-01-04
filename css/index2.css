@@ -548,6 +548,7 @@ video:focus {
 
   .mtn-intranet-text {
     font-size: 44px;
+    padding: 0 10px;
   }
   .picture-container {
     margin-right: 0px;
@@ -606,8 +607,22 @@ video:focus {
 }
 
 @media (max-width: 416px) {
-  .mtn-intranet-text {
-    font-size: 27px;
+  .mtn-intranet-row{
+    padding: 0 10px;
+  }
+  .mtn-intranet-container{
+    margin-top: 80px;
+  }
+  .mtn-intranet{
+    min-height: 530px !important;
+  }
+  .mtn-intranet-text{
+    font-size: 40px;
+    line-height: 48px;
+    padding: 40px 0;
+  }
+  .feature-img{
+    height: 200px;
   }
 
   .video-title {
