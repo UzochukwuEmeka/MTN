@@ -56,6 +56,13 @@
     z-index: 99;
 
 }
+.news-text-2{
+    width: 350px;
+    margin-left: -50px;
+    margin-top: auto;
+    margin-bottom: 10px;
+
+}
 
 .news-text:hover {
     margin-top: -70px;
@@ -361,6 +368,10 @@
 }
 
 @media(max-width:768px) {
+    .news-text-2{
+        margin-left: auto;
+        margin-top: -50px;
+    }
     .social-feed-container{
         padding: 0;
     }
