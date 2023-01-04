@@ -273,7 +273,7 @@ video:focus {
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
-  overflow: hidden;
+  overflow: auto;
   /* max-height: 380px; */
 }
 
@@ -661,7 +661,8 @@ video:focus {
     background-color: transparent;
   }
   .apllication-gray-box{
-    gap: 10px;
+    gap: 15px;
+
   }
   .application{
     margin: 0 1rem;
