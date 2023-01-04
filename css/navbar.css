@@ -140,6 +140,9 @@
     font-size: 1.6rem;
     color: #404040 !important;
   }
+  .right-nav{
+    padding-top: 10px;
+  }
   .left-nav{
     display: flex;
     justify-content: flex-end;
