@@ -632,11 +632,20 @@ video:focus {
   .veiw-video {
     padding: 10px 30px;
   }
+  .quick_body{
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
   .quick_card{
     flex: 0 0 auto;
-    width: 20%;
-    height: 0px;
-    border-radius: 0;
+    width: 40%;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
   }
   .quck-image{
     width: 50px;
@@ -647,7 +656,7 @@ video:focus {
     height: auto;
   }
   .quick-action-text{
-    display: none;
+  
   }
 
   .play-video-round {
