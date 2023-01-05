@@ -263,7 +263,12 @@
 
     color: #202020;
 }
-
+.news-text-2 {
+    width: 350px;
+    margin-left: -50px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
 .new-text-body .paragraph {
     font-family: var(--font2);
     font-style: normal;
