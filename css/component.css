@@ -947,7 +947,7 @@ position: relative;
   background: #B0B0B0;
   position: absolute;
   transition: all .2s linear;
-  left: -25px;
+  left: -20px;
 }
 
 .added-task-title{
@@ -962,6 +962,12 @@ font-size: 16px;
 line-height: 24px;
 font-feature-settings: 'salt' on;
 color: #FFFFFF;
+}
+/* Styling Caruosel */
+.add-task-indicator{
+  width: 20%;
+  bottom: 16px;
+
 }
 
 @media (max-width: 800px) {
