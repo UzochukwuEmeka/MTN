@@ -758,7 +758,7 @@ html {
 .application-yellow-body-gray-container {
   background: #f8f8f8;
   border-radius: 20px;
-  padding: 54px 18px;
+  padding: 36px 18px;
   gap: 13px;
   display: flex;
   justify-content: center;
@@ -773,7 +773,7 @@ html {
   align-items: center;
   background: #ffffff;
   border-radius: 15px;
-  padding: 10px;
+  padding: 15px 10px;
   width: 90px;
   position: relative;
   cursor: pointer;
