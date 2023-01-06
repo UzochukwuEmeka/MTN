@@ -522,14 +522,14 @@
     width: 357px;
 }
 
-.add-task-body .carousel-indicators{
-  bottom: -50px;
-  left: -70px;
+.add-task-indicator {
+  bottom: -50px !important;
+  left: -70px !important;
 
 
 }
 .add-task-link {
-    margin-top: -8px;
+    margin-top: -11px;
    
 }
 @media (max-width: 570px) {

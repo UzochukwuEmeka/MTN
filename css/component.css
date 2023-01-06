@@ -808,7 +808,7 @@ html {
   color: #404040;
   display: flex;
   justify-content: flex-end;
-  margin-top: 25px;
+  margin-top: 34px;
   gap: 10px;
 }
 .application-yellow-footer-link:hover{
@@ -816,7 +816,7 @@ html {
 
 }
 .add-task-link{
-  margin-top: 10px;
+  margin-top: -3px;
   color: #FCD818;
 }
 .carousel-indicators [data-bs-target] {
