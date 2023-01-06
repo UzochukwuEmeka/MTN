@@ -532,24 +532,7 @@ video:focus {
   right: 40px;
   cursor: pointer;
 }
-.share-via {
-  width:auto;
-  padding: 2px 10px;
-  top: 50px;
-  left: 40px;
-  text-align: center;
-}
-.share-via:hover{
-  opacity: 1;
-  display: block;
-}
-.main-app-holder:hover .share-via {
-  display: block;
-  opacity: 1;
-}
-.main-app-holder{
-  position: relative;
-}
+
 
 @media (max-width: 930px) {
   .mtn-intranet-row {
