@@ -221,9 +221,12 @@
     color: #FFFFFF;
 }
 
+.twitter-feed{
+    padding: 40px;
+}
 .twitter-feed-card {
     margin-top: -250px;
-    margin-left: 110px !important;
+    padding-left: 30px !important;
  
 }
 
@@ -243,7 +246,7 @@
     border: 1px solid #F5F5F5;
     border-bottom: 5px solid #FFCB05;
     border-radius: 24px;
-    /* width: 339.89px; */
+    width: 330.89px !important;
     padding: 30px;
     height: 370.98px;
 
@@ -275,7 +278,7 @@
 /* .owl-nav button.owl-next */
 .owl-nav button.owl-next{
     position: absolute !important;
-    right: -8px;
+    right: -48px;
     top: 54px;
 
     border-radius: 50% !important;
@@ -392,6 +395,11 @@
 @media(max-width:800px){
     .real-container{
         padding-left: 10px !important;
+    }
+    
+    .twitter-feed{
+        padding: 0 !important;
+        padding-top: 10px !important;
     }
     .twitter-feed-card .owl-theme .owl-nav{
         display: none;

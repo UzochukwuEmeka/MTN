@@ -174,4 +174,7 @@ cursor: pointer;
   .update-profile {
     text-align: center;
   }
+  .edit-pencil{
+    left: 290px;
+  }
 }

@@ -17,7 +17,7 @@
   border-radius: 8px;
 
   cursor: pointer;
-  padding: 10px 20px;
+
 }
 .pagniation ul li.numb {
   padding: 10px 50px;
@@ -27,20 +27,24 @@
 
 }
 
-.pagniation ul li.btns span {
+.pagniation ul li.btns .chev-btn {
   background: #b0b0b0;
-  padding: 10px 10px;
-  width: 3px;
+  padding: 7px;
+  width: 40px;
   text-align: center;
-  height: 30px;
+  height: 40px;
   border-radius: 50% !important;
   color: #ffff;
+}
+.pagniation ul li.btns .chev-btn:hover{
+  background: #000000;
+
 }
 
 .pagniation ul li.numb.active,
 .pagniation ul li.numb:hover,.pagniation ul li.btns span:hover
 {
-  background: #ffcb05;
+  background-color: #ffcb05 !important;
   color: #ffff;
   border: none;
 }

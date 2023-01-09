@@ -55,7 +55,7 @@
     padding-top: 30px;
 }
 .whole-schedules{
-    height: 350px;
+    height: 318px;
     overflow: hidden;
 }
 .add-task-header {
@@ -520,6 +520,9 @@
     background: #FFFFFF;
     padding: 8px;
     width: 357px;
+}
+.all-announcement{
+    height: 435px;
 }
 
 .add-task-indicator {
